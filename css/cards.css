@@ -81,3 +81,61 @@ padding: 40px 20px;
 .card a:hover{
   background-color: #162b56;
 }
+
+.footer{
+  background-color: rgb(39, 45, 61);
+  color:rgb(246, 249, 249);
+  padding: 15px;
+margin-top: 20px;
+font-size: 14px;
+}
+
+/*dimesion de tabelt 1024px*/
+@media (max-width: 1024px){
+  body{
+    background-color: #6273c0;
+  }
+  .container{
+   flex-direction: row;
+   justify-content: center;
+  }
+  .card{
+    width: 45%;
+  }
+}
+
+/*dimesion de celular grande 768px*/
+@media (max-width: 768px){
+  body{
+    background-color: #8897d6;
+  }
+  .container{
+   flex-direction: column;
+   align-items: center;
+  }
+  .card{
+    width: 90%;
+  }
+  .header h1{
+    font-size: 2rem;
+  }
+  .header p{
+    font-size: 1rem;
+  }
+}
+
+/*dimesion de celular pequeño 480px*/
+@media (max-width: 480px){
+  body{
+    background-color: #a5b2ea;
+  }
+  .card{
+    width: 95%;
+  }
+  .header h1{
+    font-size: 1.8rem;
+  }
+  .header p{
+    font-size: 0.9rem;
+  }
+}
